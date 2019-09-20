@@ -1,0 +1,29 @@
+{
+  "name": "spacex-launch-data",
+  "version": "1.0.0",
+  "description": "List of SpaceX Missions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bit172/SpaceX-Launch-Data.git"
+  },
+  "author": "Jonathan Hsu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bit172/SpaceX-Launch-Data/issues"
+  },
+  "homepage": "https://github.com/bit172/SpaceX-Launch-Data#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
